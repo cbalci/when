@@ -1,0 +1,12 @@
+Summary:
+	when is a cmdline utility which accepts a unix timestamps and printlns RFC3339(UTC) datetime sting and a human readable relative difference from now.
+
+Usage:
+	$> when 1569054942
+	2019-09-21T01:35:42-07:00 (15 hours, 3 minutes, 56 seconds ago)
+
+	$> when 15
+	1970-01-01T00:00:15Z (49 years, 8 months, 21 days, 51 minutes, 33 seconds ago)
+
+	$> when 2000000000
+	2033-05-18T03:33:20Z (13 years, 8 months, 26 days, 2 hours, 40 minutes, 1 second in the future)
